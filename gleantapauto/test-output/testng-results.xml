@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-07T12:46:57 IST" name="Default suite" finished-at="2025-02-07T12:48:32 IST" duration-ms="94267">
+    <groups>
+    </groups>
+    <test started-at="2025-02-07T12:46:57 IST" name="Default test" finished-at="2025-02-07T12:48:32 IST" duration-ms="94267">
+      <class name="com.crm.gleantapauto.Campaigns.EmailCampaignsAsapTest">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:com.crm.gleantapauto.Campaigns.EmailCampaignsAsapTest@130161f7]" started-at="2025-02-07T12:46:57 IST" name="LaunchApplication" finished-at="2025-02-07T12:47:06 IST" duration-ms="8120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="CreateAndSendAsapCampaign()[pri:0, instance:com.crm.gleantapauto.Campaigns.EmailCampaignsAsapTest@130161f7]" started-at="2025-02-07T12:47:06 IST" name="CreateAndSendAsapCampaign" finished-at="2025-02-07T12:48:31 IST" duration-ms="85905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAndSendAsapCampaign -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.gleantapauto.Campaigns.EmailCampaignsAsapTest@130161f7]" started-at="2025-02-07T12:48:31 IST" name="tearDown" finished-at="2025-02-07T12:48:32 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.gleantapauto.Campaigns.EmailCampaignsAsapTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
