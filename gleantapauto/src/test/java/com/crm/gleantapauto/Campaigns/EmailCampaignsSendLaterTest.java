@@ -77,6 +77,7 @@ public class EmailCampaignsSendLaterTest extends BaseTest{
 		driver.findElement(By.xpath(".//*[@id='search-all-segment']")).click();
 		String segmentname ="Bhargavi email segment";
 		driver.findElement(By.xpath(".//*[@id='search-all-segment']")).sendKeys(segmentname);
+		Thread.sleep(3000);
 		driver.findElement(By.xpath(".//*[@id='btn-search-all-segment']")).click();
 		Thread.sleep(3000);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(.//*[@class='create-campaign-segmentation-item'])[1]")));
