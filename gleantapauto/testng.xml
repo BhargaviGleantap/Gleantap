@@ -1,29 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="CRM">
-	<listeners>
-		<listener class-name="com.crm.gleantapauto.Extentreports.ExtentReporterNG" />
-	</listeners>
-  <test name="Gleantap">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
     <classes>
-       <class name="com.crm.gleantapauto.Login.loginTest"/>
-       <class name="com.crm.gleantapauto.Sales.AddappointmentTest"/>
-        <class name="com.crm.gleantapauto.Tasks.AddTaskTest"/>
-       <class name="com.crm.gleantapauto.Campaigns.EmailCampaignsAsapTest"/>
-       <class name="com.crm.gleantapauto.Campaigns.EmailCampaignOngoingTest"/>
-       <class name="com.crm.gleantapauto.Campaigns.EmailCampaignsSendLaterTest"/>
-       <class name="com.crm.gleantapauto.Campaigns.SMSCampaignsAsapTest"/>
-       <class name="com.crm.gleantapauto.Campaigns.KeyWordCampaignTest"/>
-       <class name="com.crm.gleantapauto.Campaigns.TemplateAddTest"/>
-       <class name="com.crm.gleantapauto.FormsPages.AddFormsTest">
-       <methods>
-        <include name="CreateFromStrach" />
-        </methods>
-        </class>
-        <class name="com.crm.gleantapauto.FormsPages.AddPagesTest"/>
-        <class name="com.crm.gleantapauto.FormsPages.FormsWorkflowTest"/>
-       <class name="com.crm.gleantapauto.Tasks.AddTaskTest"/>
-       <class name="com.crm.gleantapauto.Tasks.AddTaskTest"/>
+      <class name="com.crm.gleantapauto.FormsPages.FormsWorkflowTest"/>
+      <class name="com.crm.gleantapauto.Campaigns.TemplateAddParagraphTest"/>
+      <class name="com.crm.gleantapauto.Campaigns.EmailCampaignOngoingTest"/>
+      <class name="com.crm.gleantapauto.Sales.AddappointmentTest"/>
+      <class name="com.crm.gleantapauto.FormsPages.AddPagesTest"/>
+      <class name="com.crm.gleantapauto.Campaigns.EmailCampaignsAsapTest"/>
+      <class name="com.crm.gleantapauto.Campaigns.TemplateAddTest"/>
+      <class name="com.crm.gleantapauto.FormsPages.AddFormsTest"/>
+      <class name="com.crm.gleantapauto.Tasks.AddTaskTest"/>
+      <class name="com.crm.gleantapauto.Login.loginTest"/>
+      <class name="com.crm.gleantapauto.testscomponents.BaseTest"/>
+      <class name="com.crm.gleantapauto.Flows.CreateFlowTest"/>
+      <class name="com.crm.gleantapauto.Campaigns.SMSCampaignsAsapTest"/>
+      <class name="com.crm.gleantapauto.Campaigns.EmailCampaignsSendLaterTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
