@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">CRM</th></tr>
+<tr><td><a href="#t0">Gleantap</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">367,974</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">CRM</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Gleantap &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.crm.gleantapauto.Campaigns.EmailCampaignOngoingTest</td><td><a href="#m0">CreateAndSendOngoingCampaign</a></td><td rowspan="1">1739881814450</td><td rowspan="1">104</td></tr><tr class="failedodd"><td rowspan="1">com.crm.gleantapauto.Campaigns.KeyWordCampaignTest</td><td><a href="#m1">CreateKeyWordCampaign</a></td><td rowspan="1">1739881963939</td><td rowspan="1">81</td></tr><tr class="failedeven"><td rowspan="1">com.crm.gleantapauto.FormsPages.FormsWorkflowTest</td><td><a href="#m2">AddWorkflows</a></td><td rowspan="1">1739881975269</td><td rowspan="1">28333</td></tr><tr><th colspan="4">Gleantap &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.crm.gleantapauto.Campaigns.EmailCampaignsAsapTest</td><td><a href="#m3">CreateAndSendAsapCampaign</a></td><td rowspan="1">1739881727377</td><td rowspan="1">83738</td></tr><tr class="passedodd"><td rowspan="1">com.crm.gleantapauto.Campaigns.EmailCampaignsSendLaterTest</td><td><a href="#m4">CreateAndSendLaterCampaign</a></td><td rowspan="1">1739881818563</td><td rowspan="1">102445</td></tr><tr class="passedeven"><td rowspan="1">com.crm.gleantapauto.Campaigns.SMSCampaignsAsapTest</td><td><a href="#m5">SMSCampaignAsap</a></td><td rowspan="1">1739881924315</td><td rowspan="1">36456</td></tr><tr class="passedodd"><td rowspan="1">com.crm.gleantapauto.Campaigns.TemplateAddTest</td><td><a href="#m6">addTemplate</a></td><td rowspan="1">1739881967483</td><td rowspan="1">93</td></tr><tr class="passedeven"><td rowspan="1">com.crm.gleantapauto.FormsPages.AddPagesTest</td><td><a href="#m7">createPage</a></td><td rowspan="1">1739881971544</td><td rowspan="1">65</td></tr><tr class="passedodd"><td rowspan="1">com.crm.gleantapauto.Login.loginTest</td><td><a href="#m8">Verifylogin</a></td><td rowspan="1">1739881640631</td><td rowspan="1">11750</td></tr><tr class="passedeven"><td rowspan="1">com.crm.gleantapauto.Sales.AddappointmentTest</td><td><a href="#m9">addappointment</a></td><td rowspan="1">1739881656542</td><td rowspan="1">27380</td></tr><tr class="passedodd"><td rowspan="1">com.crm.gleantapauto.Tasks.AddTaskTest</td><td><a href="#m10">addTask</a></td><td rowspan="1">1739881688599</td><td rowspan="1">35079</td></tr></tbody>
+</table>
+<h2>Gleantap</h2><h3 id="m0">com.crm.gleantapauto.Campaigns.EmailCampaignOngoingTest#CreateAndSendOngoingCampaign</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=133.0.6943.98)
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8ff772f463a2fb737648976d8c9f566e, sendKeysToElement {id=f.7EE4381C6D85650F372EF80D48058DE3.d.BFEF2C96CF3A3E18C68F9D12CF1E8568.e.50, value=[Ljava.lang.CharSequence;@9e2ad91}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.98, chrome: {chromedriverVersion: 133.0.6943.98 (da53563ceb66..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59061}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59061/devtoo..., se:cdpVersion: 133.0.6943.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8ff772f463a2fb737648976d8c9f566e)] -&gt; xpath: //input[@name=&apos;username&apos;]]
+Session ID: 8ff772f463a2fb737648976d8c9f566e
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.sendKeys(Unknown Source)
+	at com.crm.gleantapauto.pageobjects.loginObjects.loginApplication(loginObjects.java:35)
+	at com.crm.gleantapauto.Campaigns.EmailCampaignOngoingTest.CreateAndSendOngoingCampaign(EmailCampaignOngoingTest.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.crm.gleantapauto.Campaigns.KeyWordCampaignTest#CreateKeyWordCampaign</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=133.0.6943.98)
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fc4576819a920c13c214c498769b4aab, sendKeysToElement {id=f.4C001AA274C6A83B73B95BDE2F2C6DF6.d.8082C2F7C4C7CC56B0E9AFD26D99BBE6.e.50, value=[Ljava.lang.CharSequence;@626c19cf}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.98, chrome: {chromedriverVersion: 133.0.6943.98 (da53563ceb66..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59820}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59820/devtoo..., se:cdpVersion: 133.0.6943.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fc4576819a920c13c214c498769b4aab)] -&gt; xpath: //input[@name=&apos;username&apos;]]
+Session ID: fc4576819a920c13c214c498769b4aab
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.sendKeys(Unknown Source)
+	at com.crm.gleantapauto.pageobjects.loginObjects.loginApplication(loginObjects.java:35)
+	at com.crm.gleantapauto.Campaigns.KeyWordCampaignTest.CreateKeyWordCampaign(KeyWordCampaignTest.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.crm.gleantapauto.FormsPages.FormsWorkflowTest#AddWorkflows</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=133.0.6943.98)
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f8c166f86e0fea3f925d98ca036ee2d, sendKeysToElement {id=f.8203927180B322FD616A2B4C4910E2A1.d.1E592CA053D48C743CBF98C87B1850CE.e.43931, value=[Ljava.lang.CharSequence;@184823ed}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.98, chrome: {chromedriverVersion: 133.0.6943.98 (da53563ceb66..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59990}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59990/devtoo..., se:cdpVersion: 133.0.6943.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5f8c166f86e0fea3f925d98ca036ee2d)] -&gt; xpath: (.//*[@name=&apos;auto_response_email&apos;])[1]]
+Session ID: 5f8c166f86e0fea3f925d98ca036ee2d
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at com.crm.gleantapauto.FormsPages.FormsWorkflowTest.AddWorkflows(FormsWorkflowTest.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.crm.gleantapauto.Campaigns.EmailCampaignsAsapTest#CreateAndSendAsapCampaign</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.crm.gleantapauto.Campaigns.EmailCampaignsSendLaterTest#CreateAndSendLaterCampaign</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.crm.gleantapauto.Campaigns.SMSCampaignsAsapTest#SMSCampaignAsap</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.crm.gleantapauto.Campaigns.TemplateAddTest#addTemplate</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.crm.gleantapauto.FormsPages.AddPagesTest#createPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.crm.gleantapauto.Login.loginTest#Verifylogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.crm.gleantapauto.Sales.AddappointmentTest#addappointment</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.crm.gleantapauto.Tasks.AddTaskTest#addTask</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

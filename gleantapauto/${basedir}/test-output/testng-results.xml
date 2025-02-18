@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="14" passed="8" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-18T17:57:15 IST" name="CRM" finished-at="2025-02-18T18:03:23 IST" duration-ms="367974">
+    <groups>
+    </groups>
+    <test started-at="2025-02-18T17:57:15 IST" name="Gleantap" finished-at="2025-02-18T18:03:23 IST" duration-ms="367974">
+      <class name="com.crm.gleantapauto.Tasks.AddTaskTest">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:com.crm.gleantapauto.Tasks.AddTaskTest@6356695f]" started-at="2025-02-18T17:58:04 IST" name="LaunchApplication" finished-at="2025-02-18T17:58:08 IST" duration-ms="4499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="addTask()[pri:0, instance:com.crm.gleantapauto.Tasks.AddTaskTest@6356695f]" started-at="2025-02-18T17:58:08 IST" name="addTask" finished-at="2025-02-18T17:58:43 IST" duration-ms="35079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTask -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.gleantapauto.Tasks.AddTaskTest@6356695f]" started-at="2025-02-18T17:58:43 IST" name="tearDown" finished-at="2025-02-18T17:58:43 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.gleantapauto.Tasks.AddTaskTest -->
+      <class name="com.crm.gleantapauto.FormsPages.FormsWorkflowTest">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:com.crm.gleantapauto.FormsPages.FormsWorkflowTest@4fb0f2b9]" started-at="2025-02-18T18:02:51 IST" name="LaunchApplication" finished-at="2025-02-18T18:02:55 IST" duration-ms="3448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="AddWorkflows()[pri:0, instance:com.crm.gleantapauto.FormsPages.FormsWorkflowTest@4fb0f2b9]" started-at="2025-02-18T18:02:55 IST" name="AddWorkflows" finished-at="2025-02-18T18:03:23 IST" duration-ms="28333" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=133.0.6943.98)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f8c166f86e0fea3f925d98ca036ee2d, sendKeysToElement {id=f.8203927180B322FD616A2B4C4910E2A1.d.1E592CA053D48C743CBF98C87B1850CE.e.43931, value=[Ljava.lang.CharSequence;@184823ed}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.98, chrome: {chromedriverVersion: 133.0.6943.98 (da53563ceb66..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59990}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59990/devtoo..., se:cdpVersion: 133.0.6943.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5f8c166f86e0fea3f925d98ca036ee2d)] -> xpath: (.//*[@name='auto_response_email'])[1]]
+Session ID: 5f8c166f86e0fea3f925d98ca036ee2d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=133.0.6943.98)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f8c166f86e0fea3f925d98ca036ee2d, sendKeysToElement {id=f.8203927180B322FD616A2B4C4910E2A1.d.1E592CA053D48C743CBF98C87B1850CE.e.43931, value=[Ljava.lang.CharSequence;@184823ed}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.98, chrome: {chromedriverVersion: 133.0.6943.98 (da53563ceb66..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59990}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59990/devtoo..., se:cdpVersion: 133.0.6943.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5f8c166f86e0fea3f925d98ca036ee2d)] -> xpath: (.//*[@name='auto_response_email'])[1]]
+Session ID: 5f8c166f86e0fea3f925d98ca036ee2d
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at com.crm.gleantapauto.FormsPages.FormsWorkflowTest.AddWorkflows(FormsWorkflowTest.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddWorkflows -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.gleantapauto.FormsPages.FormsWorkflowTest@4fb0f2b9]" started-at="2025-02-18T18:03:23 IST" name="tearDown" finished-at="2025-02-18T18:03:23 IST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.gleantapauto.FormsPages.FormsWorkflowTest -->
+      <class name="com.crm.gleantapauto.Campaigns.EmailCampaignsSendLaterTest">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:com.crm.gleantapauto.Campaigns.EmailCampaignsSendLaterTest@1fa268de]" started-at="2025-02-18T18:00:14 IST" name="LaunchApplication" finished-at="2025-02-18T18:00:18 IST" duration-ms="3857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="CreateAndSendLaterCampaign()[pri:0, instance:com.crm.gleantapauto.Campaigns.EmailCampaignsSendLaterTest@1fa268de]" started-at="2025-02-18T18:00:18 IST" name="CreateAndSendLaterCampaign" finished-at="2025-02-18T18:02:01 IST" duration-ms="102445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAndSendLaterCampaign -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.gleantapauto.Campaigns.EmailCampaignsSendLaterTest@1fa268de]" started-at="2025-02-18T18:02:01 IST" name="tearDown" finished-at="2025-02-18T18:02:01 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.gleantapauto.Campaigns.EmailCampaignsSendLaterTest -->
+      <class name="com.crm.gleantapauto.Campaigns.KeyWordCampaignTest">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:com.crm.gleantapauto.Campaigns.KeyWordCampaignTest@a514af7]" started-at="2025-02-18T18:02:40 IST" name="LaunchApplication" finished-at="2025-02-18T18:02:43 IST" duration-ms="3022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="CreateKeyWordCampaign()[pri:0, instance:com.crm.gleantapauto.Campaigns.KeyWordCampaignTest@a514af7]" started-at="2025-02-18T18:02:43 IST" name="CreateKeyWordCampaign" finished-at="2025-02-18T18:02:44 IST" duration-ms="81" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=133.0.6943.98)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fc4576819a920c13c214c498769b4aab, sendKeysToElement {id=f.4C001AA274C6A83B73B95BDE2F2C6DF6.d.8082C2F7C4C7CC56B0E9AFD26D99BBE6.e.50, value=[Ljava.lang.CharSequence;@626c19cf}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.98, chrome: {chromedriverVersion: 133.0.6943.98 (da53563ceb66..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59820}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59820/devtoo..., se:cdpVersion: 133.0.6943.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fc4576819a920c13c214c498769b4aab)] -> xpath: //input[@name='username']]
+Session ID: fc4576819a920c13c214c498769b4aab]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=133.0.6943.98)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fc4576819a920c13c214c498769b4aab, sendKeysToElement {id=f.4C001AA274C6A83B73B95BDE2F2C6DF6.d.8082C2F7C4C7CC56B0E9AFD26D99BBE6.e.50, value=[Ljava.lang.CharSequence;@626c19cf}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.98, chrome: {chromedriverVersion: 133.0.6943.98 (da53563ceb66..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59820}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59820/devtoo..., se:cdpVersion: 133.0.6943.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fc4576819a920c13c214c498769b4aab)] -> xpath: //input[@name='username']]
+Session ID: fc4576819a920c13c214c498769b4aab
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy13.sendKeys(Unknown Source)
+at com.crm.gleantapauto.pageobjects.loginObjects.loginApplication(loginObjects.java:35)
+at com.crm.gleantapauto.Campaigns.KeyWordCampaignTest.CreateKeyWordCampaign(KeyWordCampaignTest.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateKeyWordCampaign -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.gleantapauto.Campaigns.KeyWordCampaignTest@a514af7]" started-at="2025-02-18T18:02:44 IST" name="tearDown" finished-at="2025-02-18T18:02:44 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.gleantapauto.Campaigns.KeyWordCampaignTest -->
+      <class name="com.crm.gleantapauto.Sales.AddappointmentTest">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:com.crm.gleantapauto.Sales.AddappointmentTest@5ffead27]" started-at="2025-02-18T17:57:32 IST" name="LaunchApplication" finished-at="2025-02-18T17:57:36 IST" duration-ms="3778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="addappointment()[pri:0, instance:com.crm.gleantapauto.Sales.AddappointmentTest@5ffead27]" started-at="2025-02-18T17:57:36 IST" name="addappointment" finished-at="2025-02-18T17:58:03 IST" duration-ms="27380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addappointment -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.gleantapauto.Sales.AddappointmentTest@5ffead27]" started-at="2025-02-18T17:58:03 IST" name="tearDown" finished-at="2025-02-18T17:58:04 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.gleantapauto.Sales.AddappointmentTest -->
+      <class name="com.crm.gleantapauto.Campaigns.TemplateAddTest">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:com.crm.gleantapauto.Campaigns.TemplateAddTest@6b927fb]" started-at="2025-02-18T18:02:44 IST" name="LaunchApplication" finished-at="2025-02-18T18:02:47 IST" duration-ms="3289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="addTemplate()[pri:0, instance:com.crm.gleantapauto.Campaigns.TemplateAddTest@6b927fb]" started-at="2025-02-18T18:02:47 IST" name="addTemplate" finished-at="2025-02-18T18:02:47 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTemplate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.gleantapauto.Campaigns.TemplateAddTest@6b927fb]" started-at="2025-02-18T18:02:47 IST" name="tearDown" finished-at="2025-02-18T18:02:47 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.gleantapauto.Campaigns.TemplateAddTest -->
+      <class name="com.crm.gleantapauto.Campaigns.EmailCampaignsAsapTest">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:com.crm.gleantapauto.Campaigns.EmailCampaignsAsapTest@4f18837a]" started-at="2025-02-18T17:58:43 IST" name="LaunchApplication" finished-at="2025-02-18T17:58:47 IST" duration-ms="3571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="CreateAndSendAsapCampaign()[pri:0, instance:com.crm.gleantapauto.Campaigns.EmailCampaignsAsapTest@4f18837a]" started-at="2025-02-18T17:58:47 IST" name="CreateAndSendAsapCampaign" finished-at="2025-02-18T18:00:11 IST" duration-ms="83738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAndSendAsapCampaign -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.gleantapauto.Campaigns.EmailCampaignsAsapTest@4f18837a]" started-at="2025-02-18T18:00:11 IST" name="tearDown" finished-at="2025-02-18T18:00:11 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.gleantapauto.Campaigns.EmailCampaignsAsapTest -->
+      <class name="com.crm.gleantapauto.Campaigns.SMSCampaignsAsapTest">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:com.crm.gleantapauto.Campaigns.SMSCampaignsAsapTest@4f6ee6e4]" started-at="2025-02-18T18:02:01 IST" name="LaunchApplication" finished-at="2025-02-18T18:02:04 IST" duration-ms="3131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="SMSCampaignAsap()[pri:0, instance:com.crm.gleantapauto.Campaigns.SMSCampaignsAsapTest@4f6ee6e4]" started-at="2025-02-18T18:02:04 IST" name="SMSCampaignAsap" finished-at="2025-02-18T18:02:40 IST" duration-ms="36456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SMSCampaignAsap -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.gleantapauto.Campaigns.SMSCampaignsAsapTest@4f6ee6e4]" started-at="2025-02-18T18:02:40 IST" name="tearDown" finished-at="2025-02-18T18:02:40 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.gleantapauto.Campaigns.SMSCampaignsAsapTest -->
+      <class name="com.crm.gleantapauto.Campaigns.EmailCampaignOngoingTest">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:com.crm.gleantapauto.Campaigns.EmailCampaignOngoingTest@359f7cdf]" started-at="2025-02-18T18:00:11 IST" name="LaunchApplication" finished-at="2025-02-18T18:00:14 IST" duration-ms="3206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="CreateAndSendOngoingCampaign()[pri:0, instance:com.crm.gleantapauto.Campaigns.EmailCampaignOngoingTest@359f7cdf]" started-at="2025-02-18T18:00:14 IST" name="CreateAndSendOngoingCampaign" finished-at="2025-02-18T18:00:14 IST" duration-ms="104" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=133.0.6943.98)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8ff772f463a2fb737648976d8c9f566e, sendKeysToElement {id=f.7EE4381C6D85650F372EF80D48058DE3.d.BFEF2C96CF3A3E18C68F9D12CF1E8568.e.50, value=[Ljava.lang.CharSequence;@9e2ad91}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.98, chrome: {chromedriverVersion: 133.0.6943.98 (da53563ceb66..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59061}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59061/devtoo..., se:cdpVersion: 133.0.6943.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8ff772f463a2fb737648976d8c9f566e)] -> xpath: //input[@name='username']]
+Session ID: 8ff772f463a2fb737648976d8c9f566e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=133.0.6943.98)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8ff772f463a2fb737648976d8c9f566e, sendKeysToElement {id=f.7EE4381C6D85650F372EF80D48058DE3.d.BFEF2C96CF3A3E18C68F9D12CF1E8568.e.50, value=[Ljava.lang.CharSequence;@9e2ad91}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.98, chrome: {chromedriverVersion: 133.0.6943.98 (da53563ceb66..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59061}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59061/devtoo..., se:cdpVersion: 133.0.6943.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8ff772f463a2fb737648976d8c9f566e)] -> xpath: //input[@name='username']]
+Session ID: 8ff772f463a2fb737648976d8c9f566e
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy13.sendKeys(Unknown Source)
+at com.crm.gleantapauto.pageobjects.loginObjects.loginApplication(loginObjects.java:35)
+at com.crm.gleantapauto.Campaigns.EmailCampaignOngoingTest.CreateAndSendOngoingCampaign(EmailCampaignOngoingTest.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAndSendOngoingCampaign -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.gleantapauto.Campaigns.EmailCampaignOngoingTest@359f7cdf]" started-at="2025-02-18T18:00:14 IST" name="tearDown" finished-at="2025-02-18T18:00:14 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.gleantapauto.Campaigns.EmailCampaignOngoingTest -->
+      <class name="com.crm.gleantapauto.Login.loginTest">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:com.crm.gleantapauto.Login.loginTest@1ab3a8c8]" started-at="2025-02-18T17:57:16 IST" name="LaunchApplication" finished-at="2025-02-18T17:57:20 IST" duration-ms="4627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="Verifylogin()[pri:0, instance:com.crm.gleantapauto.Login.loginTest@1ab3a8c8]" started-at="2025-02-18T17:57:20 IST" name="Verifylogin" finished-at="2025-02-18T17:57:32 IST" duration-ms="11750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifylogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.gleantapauto.Login.loginTest@1ab3a8c8]" started-at="2025-02-18T17:57:32 IST" name="tearDown" finished-at="2025-02-18T17:57:32 IST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.gleantapauto.Login.loginTest -->
+      <class name="com.crm.gleantapauto.FormsPages.AddPagesTest">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:com.crm.gleantapauto.FormsPages.AddPagesTest@4fb61f4a]" started-at="2025-02-18T18:02:47 IST" name="LaunchApplication" finished-at="2025-02-18T18:02:51 IST" duration-ms="3824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="createPage()[pri:0, instance:com.crm.gleantapauto.FormsPages.AddPagesTest@4fb61f4a]" started-at="2025-02-18T18:02:51 IST" name="createPage" finished-at="2025-02-18T18:02:51 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.gleantapauto.FormsPages.AddPagesTest@4fb61f4a]" started-at="2025-02-18T18:02:51 IST" name="tearDown" finished-at="2025-02-18T18:02:51 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.gleantapauto.FormsPages.AddPagesTest -->
+    </test> <!-- Gleantap -->
+  </suite> <!-- CRM -->
+</testng-results>
